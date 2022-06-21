@@ -1,6 +1,6 @@
 import { getNotificationState as getWindowsNotificationState, QUERY_USER_NOTIFICATION_STATE } from '@stack-inc/windows-notification-state';
 import { getIsQuietHours } from '@stack-inc/windows-quiet-hours';
-import { getSessionState as getDarwinSessionState, getDoNotDisturb as getDarwinDoNotDisturb, SessionState } from 'macos-notification-state';
+import { getSessionState as getDarwinSessionState, getDoNotDisturb as getDarwinDoNotDisturb, SessionState } from '@stack-inc/macos-notification-state';
 
 export type NotificationState = QUERY_USER_NOTIFICATION_STATE | SessionState | 'UNKNOWN' | 'UNKNOWN_ERROR' | 'DO_NOT_DISTURB'
 

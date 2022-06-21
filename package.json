@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/stack-inc/electron-notification-state#readme",
   "dependencies": {
-    "macos-notification-state": "^2.0.1",
+    "@stack-inc/macos-notification-state": "^0.1.0",
     "@stack-inc/windows-notification-state": "^0.1.2",
     "@stack-inc/windows-quiet-hours": "^0.1.1"
   },
